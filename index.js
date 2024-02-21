@@ -8,11 +8,11 @@ const port = 3000; // Puedes cambiarlo según sea necesario
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const db = mysql.createConnection({
-    host: 'srv1180.hostgtr.io',
+    host: '193.203.175.32',
     user: 'u491711087_superadmin',
     password: 'PdPbjBkJk1=',
     database: 'u491711087_deploy',
-    port: '3306'
+    
 });
 
 db.connect((err) => {
